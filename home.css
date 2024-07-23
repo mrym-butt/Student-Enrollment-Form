@@ -1,0 +1,41 @@
+body{
+    background-color: gold;
+}
+.box{
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgb(102, 101, 101);
+    width: 50%;
+    height:250px;
+}
+
+.forminput{
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.box button{
+    background-color: black;
+    color: white;
+
+}
+
+.userclass{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 5px;
+    width: 50%;
+    /* display: flex; */
+}
+.userclass h2{
+    justify-content: center;
+    align-items: center;
+}

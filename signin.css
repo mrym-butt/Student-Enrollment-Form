@@ -1,0 +1,73 @@
+body{
+    background-color: gold;
+}
+.box{
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    width: 60%;
+    height: 400px;
+    box-shadow: 0 0 5px 5px rgb(81, 80, 80);
+    display: flex;
+    overflow: hidden;
+}
+.left{
+    background-image: url("./gold.jpg");
+    background-size: cover;
+    width: 50%;
+    overflow: hidden;
+}
+.left .content{
+    padding: 40px;
+    overflow: hidden;
+}
+
+.inner-content a{
+    background: #986b3b;
+    color: #ffffff;
+    padding: 14px 40px;
+    margin: 2px;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 0 3px 6px 1px #042d4657;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.right{ 
+    padding: 50px;
+    overflow: hidden;
+
+}
+.right .login-content{
+    margin: 10px;
+    align-items: center;
+    display: inline-block;
+    overflow: hidden;
+}
+.right .user input{
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    margin-top: 5px;
+    width: 200px;
+}
+.right .pass input{
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    margin-top: 5px;
+    width: 200px;
+}
+
+.right .login-content button{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    width: 100px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
